@@ -7,6 +7,7 @@ pub mod uniform;
 // pub mod slice;
 pub mod other;
 pub mod bernouilli;
+pub mod weight_index;
 
 pub fn gen_f32() -> f32 {
     let seed = 12345u64;
